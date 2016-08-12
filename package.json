@@ -1,0 +1,39 @@
+{
+  "name": "now-you-see-me",
+  "version": "1.0.0",
+  "description": "POC of zeit.co/now service",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "xo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/samuelmartineau/now-you-see-me.git"
+  },
+  "keywords": [
+    "now",
+    "nodejs"
+  ],
+  "author": {
+    "name": "Samuel Martineau",
+    "mail": "martineau.samuel.1990@gmail.com",
+    "site": "http://samuelmartineau.com/",
+    "twitter": "https://twitter.com/marti_sami"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/samuelmartineau/now-you-see-me/issues"
+  },
+  "homepage": "https://github.com/samuelmartineau/now-you-see-me#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "xo": "0.16.0"
+  },
+  "xo": {
+    "esnext": true,
+    "space": true
+  }
+}
